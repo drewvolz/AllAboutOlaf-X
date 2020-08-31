@@ -1,0 +1,82 @@
+{
+  "results": [
+    {
+      "displayName": "Jane Mary Doe",
+      "classYear": "2020",
+      "suffixName": "III",
+      "firstName": "Jane",
+      "thumbnail": "https://www.stolaf.edu/stofaces/face.cfm",
+      "homePhone": "507-786-2345",
+      "email": "jdoe@stolaf.edu",
+      "departments": [
+        {
+          "query": {
+            "department": "Mathematics, Statistics, and Computer Science"
+          },
+          "href": "https://www.stolaf.edu/directory/search?department=Mathematics%2C+Statistics%2C+and+Computer+Science",
+          "name": "Mathematics, Statistics, and Computer Science"
+        },
+        {
+          "query": {
+            "department": "Statistics and Data Science"
+          },
+          "href": "https://www.stolaf.edu/directory/search?department=Statistics+and+Data+Science",
+          "name": "Statistics and Data Science"
+        }
+      ],
+      "onLeave": {
+        "start": "2019-09-01",
+        "end": "2020-02-29",
+        "type": "leave"
+      },
+      "homeAddress": {
+        "zip": "55057",
+        "city": "Northfield",
+        "country": "USA",
+        "state": "Minnesota",
+        "street": [
+          "1520 St. Olaf Avenue"
+        ]
+      },
+      "pronouns": [
+        "she, her, hers",
+        "they, them, theirs"
+      ],
+      "lastName": "Doe",
+      "profileUrl": "https://www.stolaf.edu/profile/doe",
+      "username": "jdoe",
+      "campusLocations": [
+        {
+          "display": "Rølvaag Memorial Library 123",
+          "buildingabbr": "RML",
+          "building": "Rølvaag Memorial Library",
+          "phone": "507-786-1234",
+          "room": "123"
+        },
+        {
+          "display": "Regents Hall (Natural Science) 308",
+          "buildingabbr": "RNS",
+          "building": "Regents Hall (Natural Science)",
+          "phone": "507-786-3415",
+          "room": "308"
+        }
+      ],
+      "title": "Web Developer",
+      "photo": "https://www.stolaf.edu/stofaces/face.cfm",
+      "officeHours": {
+        "display": "Office Hours: Mon 10&#x3a;45-11&#x3a;45am, Tue 2&#x3a;00-3&#x3a;00pm, Wed 12&#x3a;45-1&#x3a;45pm, Fri 11-noon <a rel='nofollower noreferrer' href='http&#x3a;&#x2f;&#x2f;tinyurl.com&#x2f;kzgappointments'>Appointment Calendar</a>",
+        "prefix": "Office Hours:",
+        "hrefLabel": "Appointment Calendar",
+        "href": "http://tinyurl.com/kzgappointments",
+        "content": "Mon 10:45-11:45am, Tue 2:00-3:00pm, Wed 12:45-1:45pm, Fri 11-noon"
+      },
+      "specialties": "Python; HTML; Postgres",
+      "displayTitle": "Web Developer"
+    }
+  ],
+  "meta": {
+    "fullCount": 1,
+    "count": 1,
+    "offCampus": true
+  }
+}
