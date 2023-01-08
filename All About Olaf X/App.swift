@@ -11,29 +11,6 @@ import SwiftUI
 class BonApp: App {
     let appState = AppState()
 
-    required init() {
-        addObservers()
-    }
-
-    // todo: check if this is the right way to do this
-    deinit {
-        removeObservers()
-    }
-
-    private func addObservers() {
-        NotificationCenter.default.addObserver(self, selector: #selector(powerStateChanged),
-                                               name: Notification.Name.NSProcessInfoPowerStateDidChange, object: nil)
-    }
-
-    private func removeObservers() {
-        NotificationCenter.default.removeObserver(self,
-                                                  name: Notification.Name.NSProcessInfoPowerStateDidChange, object: nil)
-    }
-
-    @objc private func powerStateChanged(_ notification: Notification) {
-        appState.isLowPowerEnabled = ProcessInfo.processInfo.isLowPowerModeEnabled
-    }
-
     var body: some Scene {
         WindowGroup {
             Navigation().environmentObject(appState)
