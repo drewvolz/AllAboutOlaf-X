@@ -1,6 +1,6 @@
 //
 //  GeneralSettingsView.swift
-//  Bon Appetit
+//  All About Olaf X
 //
 //  Created by Drew Volz on 8/9/20.
 //
