@@ -24,7 +24,6 @@ struct HomeView: View {
                     }
                 }
             }
-            .background(HomeBackground().environmentObject(appState))
             .preferredColorScheme(appState.isDarkModeEnabled ? .dark : .light)
             .navigationBarItems(trailing: SettingsButton(showing: $showingSettings).environmentObject(appState))
             .navigationBarTitle(UIApplication.bundleName)

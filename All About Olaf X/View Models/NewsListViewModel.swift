@@ -1,6 +1,6 @@
 //
 //  NewsList.swift
-//  Bon Appetit
+//  All About Olaf X
 //
 //  Created by Drew Volz on 8/17/20.
 //

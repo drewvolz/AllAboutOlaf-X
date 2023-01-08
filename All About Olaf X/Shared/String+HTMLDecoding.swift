@@ -1,6 +1,6 @@
 //
 //  String+HTMLDecoding.swift
-//  Bon Appetit
+//  All About Olaf X
 //
 //  Created by Drew Volz on 10/27/19.
 //  Code taken from http://stackoverflow.com/a/30141700/106244

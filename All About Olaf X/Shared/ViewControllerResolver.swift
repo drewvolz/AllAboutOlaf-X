@@ -1,13 +1,13 @@
 //
 //  ViewControllerResolver.swift
-//  Bon Appetit
+//  All About Olaf X
 //
 //  Created by Drew Volz on 8/2/20.
 //
 
 import SwiftUI
 
-final class ViewControllerResolver: UIViewControllerRepresentable {
+struct ViewControllerResolver: UIViewControllerRepresentable {
     let onResolve: (UIViewController) -> Void
 
     init(onResolve: @escaping (UIViewController) -> Void) {

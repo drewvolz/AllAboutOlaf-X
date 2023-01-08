@@ -1,6 +1,6 @@
 //
 //  AppState.swift
-//  Bon Appetit
+//  All About Olaf X
 //
 //  Created by Drew Volz on 8/3/20.
 //
@@ -12,7 +12,6 @@ class AppState: ObservableObject {
 
     static var darkMode = "isDarkModeEnabled"
     static var cafeSearch = "showScopeForCafeSearch"
-    static var lowPowerEnabled = "isLowPowerEnabled"
     static var allTiles = "showInactiveHomeTiles"
 
     // MARK: general settings
@@ -20,12 +19,6 @@ class AppState: ObservableObject {
     @Published var isDarkModeEnabled = UserDefaults.standard.bool(forKey: AppState.darkMode) {
         didSet {
             UserDefaults.standard.set(isDarkModeEnabled, forKey: AppState.darkMode)
-        }
-    }
-
-    @Published var isLowPowerEnabled = UserDefaults.standard.bool(forKey: AppState.lowPowerEnabled) {
-        didSet {
-            UserDefaults.standard.set(isLowPowerEnabled, forKey: AppState.lowPowerEnabled)
         }
     }
 
