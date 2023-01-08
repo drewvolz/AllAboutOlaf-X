@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-class BonApp: App {
+struct MainApp: App {
     let appState = AppState()
 
     var body: some Scene {

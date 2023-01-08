@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final class ViewControllerResolver: UIViewControllerRepresentable {
+struct ViewControllerResolver: UIViewControllerRepresentable {
     let onResolve: (UIViewController) -> Void
 
     init(onResolve: @escaping (UIViewController) -> Void) {
