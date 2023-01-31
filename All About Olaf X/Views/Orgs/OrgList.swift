@@ -22,7 +22,6 @@ struct OrgList: View {
         } ?? []) { org in
             OrgListRow(org: org)
         }
-        .animation(.interactiveSpring())
         .add(searchbar: searchbar)
         .listStyle(DefaultListStyle())
         .resignKeyboardOnDragGesture()

@@ -26,7 +26,6 @@ struct DictionaryList: View {
         }
         .defaultStyle()
         .add(searchbar: tokenizedSearchBar)
-        .animation(.interactiveSpring())
         .resignKeyboardOnDragGesture()
         .navigationBarTitle("Dictionary")
     }

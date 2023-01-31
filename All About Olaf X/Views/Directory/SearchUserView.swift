@@ -24,7 +24,6 @@ struct SearchUserView: View {
                 UserRow(viewmodel: self.viewmodel, user: user)
             }
         }
-        .animation(.interactiveSpring())
         .add(searchbar: searchbar)
         .listStyle(DefaultListStyle())
         .resignKeyboardOnDragGesture()
